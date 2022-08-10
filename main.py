@@ -81,7 +81,7 @@ def get_data(url, name_new_file):
 
 
 def main():
-    print("Введите ссылку на нужный раздел: (Ссылка должна быть ввиде: https://lenta.com/catalog/)")
+    print("Введите ссылку на нужный раздел: (Ссылка должна быть в виде: https://lenta.com/catalog/)")
     url = input()
     print(
         "Введите 'yes', если хотите сохранить данные в новом файле, или 'no', если хотите сохранить в общий файл products_dict.json")
